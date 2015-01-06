@@ -58,6 +58,7 @@ p span{
   height: 140px;
 }
 
+.timer .weeks-wrapper,
 .timer .days-wrapper,
 .timer .hours-wrapper,
 .timer .minutes-wrapper,
@@ -70,12 +71,14 @@ p span{
   font-size: 18px;
 }
 
+.timer .weeks-wrapper,
 .timer .days-wrapper,
 .timer .hours-wrapper,
 .timer .minutes-wrapper{
   border-right: solid #fff 1px;
 }
 
+.timer .weeks,
 .timer .days,
 .timer .hours,
 .timer .minutes,
