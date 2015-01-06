@@ -1,15 +1,16 @@
-html, body{
+html, body {
   height: 100%;
 }
 
-body{
-  font-family: 'Arial', sans-serif;
+body {
+  font-family: 'Lato', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   color: #fff;
   font-size: 16px;
   line-height: 1.8em;
   padding-top: 90px;
+  text-align: center;
 }
 
 #bg_pattern { 
@@ -21,4 +22,21 @@ body{
   width: 100%; 
   height: 100%; 
   z-index: -1;
+}
+
+.logo{
+  display: block;
+  margin: 0 auto;
+}
+
+h1{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#timer{
+  font-size: 38px;
+  line-height: 1.1em;
+  margin: 0 0 25px;
+  font-weight: 300;
 }
