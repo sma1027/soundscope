@@ -12,9 +12,10 @@ $(document).ready(function() {
     
   /* countdown */
   $('.timer').countdown("2015/01/31", function(event){
-    $(this).text(
-      event.strftime('%D days %H hours %M minutes %S seconds')
-    );
+    $('.days').html(event.strftime('%D'));
+    $('.hours').html(event.strftime('%H'))
+    $('.minutes').html(event.strftime('%M'));
+    $('.seconds').html(event.strftime('%S'));
   });
 
 });
