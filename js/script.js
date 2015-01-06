@@ -13,7 +13,7 @@ $(document).ready(function() {
   /* countdown */
   $('.timer').countdown("2015/01/31", function(event){
     $(this).text(
-      event.strftime('%D %H hours %M minutes %S seconds')
+      event.strftime('%D days %H hours %M minutes %S seconds')
     );
   });
 
