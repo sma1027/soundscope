@@ -19,8 +19,9 @@ $(document).ready(function() {
     // $('.month').html(event.finalDate.getMonth()+1);
     // $('.date').html(event.finalDate.getDate());
     // $('.year').html(event.finalDate.getFullYear());
-    $('.weeks').html(event.strftime('%w'));
-    $('.days').html(event.strftime('%d'));
+    // $('.weeks').html(event.strftime('%w'));
+    // $('.days').html(event.strftime('%d'));
+    $('.days').html(event.strftime('%D'));
     $('.hours').html(event.strftime('%H'))
     $('.minutes').html(event.strftime('%M'));
     $('.seconds').html(event.strftime('%S'));
