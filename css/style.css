@@ -113,3 +113,92 @@ p span{
   /* Set the fixed height of the footer here */
   height: 120px;
 }
+
+
+/* media queries */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .coming-soon p { 
+    padding: 0; 
+  }
+  .timer .days-wrapper, .timer .hours-wrapper, .timer .minutes-wrapper, .timer .seconds-wrapper { 
+    width: 150px; 
+    /*height: 50px;*/
+    padding-bottom: 0px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  
+  .coming-soon p { padding: 0; }
+  .timer .days-wrapper, .timer .hours-wrapper, .timer .minutes-wrapper, .timer .seconds-wrapper { 
+    width: 80px; 
+    font-size: 15px;
+  }
+
+  .timer .days-wrapper span, 
+  .timer .hours-wrapper span, 
+  .timer .minutes-wrapper span, 
+  .timer .seconds-wrapper span{ 
+    font-size: 30px;
+    line-height: 40px;
+    height: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .social { text-align: center; }
+  .social { padding-bottom: 15px; }
+
+   /* social icons */
+    .social .fa{
+      font-size: 20px;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+/*    .subscribe form input { width: 95%; }
+    .subscribe form button { width: 95%; margin-top: 10px; }*/
+
+}
+
+@media (max-width: 400px) {
+  
+  h1, h2 { font-size: 32px; }
+
+}
+
+
+
+/* Retina-ize images/icons */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+  
+  /* logo */
+    .coming-soon .logo a {
+      background-image: url(logo.png) !important; background-repeat: no-repeat !important; background-size: 150px 54px !important;
+    }
+    .coming-soon .logo a:hover {
+      background-image: url(logo.png) !important; background-repeat: no-repeat !important; background-size: 150px 54px !important;
+    }
+    .coming-soon .logo a:before {
+      /*content: url(../img/logo-hover@2x.png);*/
+    }
+    
+    .coming-soon .container,
+    .coming-soon p{
+      font-size: 16px;
+    }
+
+
+
+
+  
+}
