@@ -141,7 +141,7 @@ jQuery(document).ready(function($) {
     //Mailchimp Subscription Integration
     $('.mailchimp').ajaxChimp({
         callback: mailchimpCallback,
-        url: "http://jennylynpereira.us8.list-manage.com/subscribe/post?u=d594f4d2197a205cf487f3525&amp;id=a9e603bfd5" //Replace this with your own mailchimp post URL. Don t remove the "". Just paste the url inside "".  
+        url: "http://soundscope.us9.list-manage.com/subscribe/post?u=5568082bfa4ba267e19f38f55&amp;id=07bc46a222" //Replace this with your own mailchimp post URL. Don t remove the "". Just paste the url inside "".  
     });
 
     function mailchimpCallback(resp) {
