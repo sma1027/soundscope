@@ -317,3 +317,10 @@ input.subscribe-input {
     font-size: 14px;
     color: #000000;
 }
+
+/* Custom */
+.subscribe-link a{
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-weight: normal;
+}
