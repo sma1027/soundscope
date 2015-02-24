@@ -317,3 +317,9 @@ input.subscribe-input {
     font-size: 14px;
     color: #000000;
 }
+
+/* custom */
+#footer .row a:hover{
+    color: #C13030;
+    text-decoration: underline;
+}
