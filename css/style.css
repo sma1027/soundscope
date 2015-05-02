@@ -140,7 +140,7 @@ a.btn { margin: 0 10px 0 0 }
     position: absolute;
     left: 0%; /* centers the loading animation horizontally one the screen */
     top: 15%; /* centers the loading animation vertically one the screen */
-    background-image: url(../../assets/img/loading.gif); /* path to your loading animation */
+    background-image: url(../img/loading.gif); /* path to your loading animation */
     background-repeat: no-repeat;
     background-position: center;
     /*margin: -100px 0 0 -100px; */ /* is width and height divided by two */
@@ -319,8 +319,17 @@ input.subscribe-input {
 }
 
 /* Custom */
+.subscribe-link{
+    padding-top: 10px;
+}
 .subscribe-link a{
     color: #FFFFFF;
     text-decoration: underline;
     font-weight: normal;
+}
+
+#footer .row a:hover{
+    color: #C13030;
+    text-decoration: underline;
+
 }
